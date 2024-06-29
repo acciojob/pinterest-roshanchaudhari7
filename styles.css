@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    height: 400px;
+}
+
+
+.image img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.text {
+    width: 300px;
+    margin: 0px 80px;
+}
+
+.text h1 {
+    padding: 0px 10px;
+}
+
+.text p {
+    padding: 2px 10px;
+    margin: 10px 0px;
+}
+
+.explore {
+    padding: 10px;
+    margin: 0px 80px;
+    width: 100px;
+    background-color: #e42323;
+    color: #ffffff;
+    border-radius: 8px;
+}
